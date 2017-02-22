@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "client.night.one"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 8
+        versionName "2016-2-19"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':PullToRefresh')
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    //    compile 'com.android.support:support-v4:22+'
+    compile 'com.loopj.android:android-async-http:1.4.5'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.facebook.fresco:fresco:0.8.0+'
+    compile 'io.paperdb:paperdb:1.1'
+    //友盟统计
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    //facebook
+    compile 'com.facebook.android:facebook-android-sdk:4.6.0'
+    compile files('libs/com.umeng.fb.5.4.0.jar')
+    compile files('libs/umeng-update-v2.6.0.1.jar')
+    //友盟推送  友盟推送配合用户反馈sdk在小米手机上会有崩溃的情况发生
+//    compile files('libs/com.umeng.message_v2.7.0.jar')
+}
