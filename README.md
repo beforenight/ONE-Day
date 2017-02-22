@@ -30,36 +30,35 @@
   
 截图
 -----------
+![首页](http://upload-images.jianshu.io/upload_images/701621-8a579d749bae1f68.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![问题](http://upload-images.jianshu.io/upload_images/701621-643b15d759778233.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![Home](https://beforenight.win/blob/master/Screenshots/screenshot-1.png)
-![Article](https://beforenight.win/blob/master/Screenshots/screenshot-2.png)
+![文章](http://upload-images.jianshu.io/upload_images/701621-d82a16bd2a956c53.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![Question](https://beforenight.win/blob/master/Screenshots/screenshot-3.png)
-![Thing](https://beforenight.win/blob/master/Screenshots/screenshot-4.png)
+![Thing](http://upload-images.jianshu.io/upload_images/701621-925b2e8cdcc423b1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![About](http://upload-images.jianshu.io/upload_images/701621-fe12bc0e3b44afc5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![启动页](http://upload-images.jianshu.io/upload_images/701621-3fe3eb1219c5f6f3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![句子](http://upload-images.jianshu.io/upload_images/701621-7ddeb1ca9e99c5f8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 版本
 ----------
 注：建议使用最新代码编译后再预览，代码会不时小幅更新。
-*  2016-2-19，修复了一些bug。目前的主框架逐渐显露出了一些不足，无法满足许多逻辑细节和体验细节。希望大家多多提[issue](https://beforenight.win/issues) :)
+
+*  2016-2-19，修复了一些bug。取消右滑刷新导致页面卡顿。
 
 *  2016-2-3，增加了“首页”、“文章”、“问题”、“东西”四部分左滑刷新的功能，对PullToRefresh有轻微修改。下一版本会完善一些细节的地方。
 
 *  2016-1-26，主要在个人中心增加了“关于”、“分享给好友”、“意见反馈”、“评分”和自动更新功能。下一个版本会增加左滑刷新功能。
 
-*  2016-1-20，这两天修(zhe)改(teng)了下代码，增加了缓存机制，包括图片缓存和文件缓存，限制了最多只能查看往期7天的内容。
-首次尝试了使用[paper](https://github.com/pilgr/Paper)，一个优秀的数据存储库，但一个缺点是paper不能设置过期时间，只好自己判断了。下一个版本会增加意见反馈新功能。
+*  2016-1-20，这两天修改了下代码，增加了缓存机制，包括图片缓存和文件缓存，限制了最多只能查看往期7天的内容。
+首次尝试了使用[paper](https://github.com/pilgr/Paper)，一个优秀的数据存储库，但一个缺点是paper不能设置过期时间，只好自己判断了。
 
 * 2016-1-8，由于工作的关系有一段时间没有维护了，现在拾了起来。从这版中开始使用日期作为版本名，更改了包名为studio.uphie.one。修复了程序长时间后台运行再打开界面重叠的bug，放弃了双击界面“喜欢”的功能。
-
-下载
------------
-* [下载链接](http://www.pgyer.com/vnS3)
-* 二维码
-  
-  ![Qrcode for download](http://static.pgyer.com/app/qrcode/vnS3)
 
 联系我
 ------------
 * 邮箱: beforenight@163.com
-* 微博: http://weibo.com/u/5737193521
-* Twitter: https://twitter.com/UphieElis
+
